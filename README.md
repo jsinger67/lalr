@@ -1,3 +1,12 @@
+<!-- markdownlint-disable first-line-h1 -->
+
+[![Rust](https://github.com/jsinger67/lalry/actions/workflows/rust.yml/badge.svg)](https://github.com/jsinger67/lalry/actions/workflows/rust.yml)
+[![Docs.rs](https://docs.rs/lalry/badge.svg)](https://docs.rs/lalry)
+[![Crates.io](https://img.shields.io/crates/v/lalry.svg)](https://crates.io/crates/lalry)
+
+<!-- markdownlint-enable first-line-h1 -->
+
+
 # `lalry` - a library for creating LALR(1) parsers from context-free grammars
 
 This is a fork of the great [lalr](https://github.com/goffrie/lalr) crate, a library for
