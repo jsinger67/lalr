@@ -1,16 +1,15 @@
 [package]
 
-name = "lalr"
+name = "lalry"
 version = "0.1.0"
-authors = ["Geoffry Song <goffrie@gmail.com>"]
+authors = ["Geoffry Song <goffrie@gmail.com>", "Jörg Singer <singer.joerg@gmx.de>"]
 
 description = "a library for creating LALR(1) parsers from context-free grammars"
-homepage = "https://github.com/goffrie/lalr"
-repository = "https://github.com/goffrie/lalr"
-documentation = "http://goffrie.github.io/lalr"
+repository = "https://github.com/jsinger67/lalry"
+documentation = "https://docs.rs/lalry"
 license = "MIT OR Apache-2.0"
 keywords = ["lalr", "parsing"]
 
 [lib]
 
-name = "lalr"
+name = "lalry"

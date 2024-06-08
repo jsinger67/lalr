@@ -17,7 +17,7 @@ Be aware that this project is still v0.y.z which means that anything can change 
 We defined for this project that while being on major version zero we mark incompatible changes with
 new minor version numbers. Please note that this is no version handling covered by `Semver`.
 
-## 0.1.0 - Not released yet
+## 0.1.0 - 2024-06-08
 
 To make the generation of parse tables more flexible we added a way to control this process.
 The trait `Config` is used for this and a custom implementation can be provided to deviate from the

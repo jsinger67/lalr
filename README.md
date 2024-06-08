@@ -1,7 +1,12 @@
-## lalr
+# lalry
 
-[![Build Status](https://travis-ci.org/goffrie/lalr.png)](https://travis-ci.org/goffrie/lalr)
+This is a fork of the great [lalr](https://github.com/goffrie/lalr) crate, a library for
+creating LALR(1) parsers from context-free grammars.
 
-A library for creating LALR(1) parsers from context-free grammars. That's pretty much it.
+## Additions to 'lalr'
 
-[API Documentation.](http://goffrie.github.io/lalr/lalr/index.html)
+To make the generation of parse tables more flexible we added a way to control this process.
+The trait `Config` is used for this and a custom implementation can be provided to deviate from the
+default.
+To keep the default behavior as in previous versions the user can use the `DefaultConfig` structure
+that provides the implementation of the standard behavior.
